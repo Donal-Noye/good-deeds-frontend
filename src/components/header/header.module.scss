@@ -1,0 +1,11 @@
+@import "../../app/vars";
+
+.header {
+  @apply p-8 flex items-center justify-between absolute top-0 right-0;
+  width: calc(100% - $sidebar-width);
+  height: $header-height;
+}
+
+.title {
+  @apply text-3xl font-medium;
+}

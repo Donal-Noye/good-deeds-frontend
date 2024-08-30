@@ -1,0 +1,14 @@
+@import "../../app/vars";
+
+.sidebar {
+  @apply h-screen bg-[#1C1D22] flex flex-col items-center justify-between py-8;
+  width: $sidebar-width;
+}
+
+.logo {
+  @apply text-3xl transition-colors hover:text-neutral-400
+}
+
+.logout {
+  @apply text-neutral-400 p-2 hover:text-rose-500 transition-colors
+}

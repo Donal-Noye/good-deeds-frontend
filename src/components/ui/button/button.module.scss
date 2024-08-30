@@ -1,0 +1,35 @@
+.button {
+  @apply h-10 px-4 py-2 inline-flex items-center gap-1.5 justify-center whitespace-nowrap rounded-xl text-sm font-medium transition-colors disabled:pointer-events-none disabled:opacity-50;
+}
+
+.primary {
+  @apply bg-[#4B69FF] text-white hover:bg-[#4B69FF]/80;
+}
+
+.secondary {
+  @apply bg-[#eaeaea] text-black hover:bg-[#eaeaea]/80;
+}
+
+.outline {
+  @apply border-2 border-neutral-500 text-white hover:bg-neutral-700;
+}
+
+.small {
+  padding: 6px 12px;
+  font-size: 14px;
+}
+
+.medium {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.large {
+  padding: 14px 28px;
+  font-size: 18px;
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
